@@ -1,0 +1,25 @@
+body{
+    background: #52c1ff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{    
+    background: url('images.jpg');
+    background-size: cover;  
+    /* background: blue; */
+    background-position: center;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+
+}
+
+h1{
+    text-align: center;
+    color:white;
+    background: #ec362c; 
+
+}
