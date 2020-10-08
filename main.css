@@ -10,16 +10,1008 @@ body{
     /* background: blue; */
     background-position: center;
     width: 60%;
-    height: 70%;
+    height: 80%;
     margin: auto;
     position: relative;
     top: 30px;
 
 }
 
-h1{
+#countdown-clock{
     text-align: center;
     color:white;
-    background: #ec362c; 
-
+    background: rgba(234,54,46, 0.1); 
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -20%);
 }
+
+#finish{
+    text-align: center;
+    color:white;
+    background: rgba(234,54,46, 0.9);
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.animation{  
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 50%;  
+  animation-delay: -10s;
+}
+
+#snow-1{
+    width: 6px;
+    height: 6px;
+    animation-name: snowa;
+    animation-duration: 8.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-2{
+    width: 7px;
+    height: 7px;
+    animation-name: snowb;
+    animation-duration: 7.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-3{
+    width: 8px;
+    height: 8px;
+    animation-name: snowc;
+    animation-duration: 6.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-4{
+    width: 9px;
+    height: 9px;
+    animation-name: snowd;
+    animation-duration: 5.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-5{
+    width: 10px;
+    height: 10px;
+    animation-name: snowe;
+    animation-duration: 4.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-6{
+    width: 6px;
+    height: 6px;
+    animation-name: snowf;
+    animation-duration: 8.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-7{
+    width: 7px;
+    height: 7px;
+    animation-name: snowg;
+    animation-duration: 7.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-8{
+    width: 8px;
+    height: 8px;
+    animation-name: snowh;
+    animation-duration: 6.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-9{
+    width: 9px;
+    height: 9px;
+    animation-name: snowi;
+    animation-duration: 5.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-10{
+    width: 10px;
+    height: 10px;
+    animation-name: snowj;
+    animation-duration: 5.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+#snow-11{
+    width: 6px;
+    height: 6px;
+    animation-name: snowk;
+    animation-duration: 5.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-12{
+    width: 7px;
+    height: 7px;
+    animation-name: snowl;
+    animation-duration: 5.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-13{
+    width: 8px;
+    height: 8px;
+    animation-name: snowm;
+    animation-duration: 6.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-14{
+    width: 9px;
+    height: 9px;
+    animation-name: snown;
+    animation-duration: 7.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-15{
+    width: 10px;
+    height: 10px;
+    animation-name: snowo;
+    animation-duration: 8.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-16{
+    width: 6px;
+    height: 6px;
+    animation-name: snowp;
+    animation-duration: 8.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-17{
+    width: 7px;
+    height: 7px;
+    animation-name: snowq;
+    animation-duration: 5.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-18{
+    width: 8px;
+    height: 8px;
+    animation-name: snowr;
+    animation-duration: 6.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-19{
+    width: 9px;
+    height: 9px;
+    animation-name: snows;
+    animation-duration: 7.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow-20{
+    width: 10px;
+    height: 10px;
+    animation-name: snowt;
+    animation-duration: 8.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+#snow1{
+    width: 6px;
+    height: 6px;
+    animation-name: snowa;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow2{
+    width: 7px;
+    height: 7px;
+    animation-name: snowb;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow3{
+    width: 8px;
+    height: 8px;
+    animation-name: snowc;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow4{
+    width: 9px;
+    height: 9px;
+    animation-name: snowd;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow5{
+    width: 10px;
+    height: 10px;
+    animation-name: snowe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow6{
+    width: 6px;
+    height: 6px;
+    animation-name: snowf;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow7{
+    width: 7px;
+    height: 7px;
+    animation-name: snowg;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow8{
+    width: 8px;
+    height: 8px;
+    animation-name: snowh;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow9{
+    width: 9px;
+    height: 9px;
+    animation-name: snowi;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow10{
+    width: 10px;
+    height: 10px;
+    animation-name: snowj;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+#snow11{
+    width: 6px;
+    height: 6px;
+    animation-name: snowk;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow12{
+    width: 7px;
+    height: 7px;
+    animation-name: snowl;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow13{
+    width: 8px;
+    height: 8px;
+    animation-name: snowm;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow14{
+    width: 9px;
+    height: 9px;
+    animation-name: snown;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow15{
+    width: 10px;
+    height: 10px;
+    animation-name: snowo;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow16{
+    width: 6px;
+    height: 6px;
+    animation-name: snowp;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow17{
+    width: 7px;
+    height: 7px;
+    animation-name: snowq;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow18{
+    width: 8px;
+    height: 8px;
+    animation-name: snowr;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow19{
+    width: 9px;
+    height: 9px;
+    animation-name: snows;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow20{
+    width: 10px;
+    height: 10px;
+    animation-name: snowt;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
+#snow21{
+    width: 6px;
+    height: 6px;
+    animation-name: snowu;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow22{
+    width: 7px;
+    height: 7px;
+    animation-name: snowv;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow23{
+    width: 8px;
+    height: 8px;
+    animation-name: snoww;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow24{
+    width: 9px;
+    height: 9px;
+    animation-name: snowx;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow25{
+    width: 10px;
+    height: 10px;
+    animation-name: snowy;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow26{
+    width: 6px;
+    height: 6px;
+    animation-name: snowz;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow27{
+    width: 7px;
+    height: 7px;
+    animation-name: snowaa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow28{
+    width: 8px;
+    height: 8px;
+    animation-name: snowab;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow29{
+    width: 9px;
+    height: 9px;
+    animation-name: snowac;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+/* #snow30{
+    width: 10px;
+    height: 10px;
+    animation-name: snowad;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+} */
+
+#snow31{
+    width: 6px;
+    height: 6px;
+    animation-name: snowae;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow32{
+    width: 7px;
+    height: 7px;
+    animation-name: snowaf;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow33{
+    width: 8px;
+    height: 8px;
+    animation-name: snowag;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow34{
+    width: 9px;
+    height: 9px;
+    animation-name: snowah;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow35{
+    width: 10px;
+    height: 10px;
+    animation-name: snowai;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow36{
+    width: 6px;
+    height: 6px;
+    animation-name: snowaj;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow37{
+    width: 7px;
+    height: 7px;
+    animation-name: snowak;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow38{
+    width: 8px;
+    height: 8px;
+    animation-name: snowal;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow39{
+    width: 9px;
+    height: 9px;
+    animation-name: snowam;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+/* #snow40{
+    width: 10px;
+    height: 10px;
+    animation-name: snowan;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+} */
+
+
+#snow41{
+    width: 6px;
+    height: 6px;
+    animation-name: snowao;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow42{
+    width: 7px;
+    height: 7px;
+    animation-name: snowap;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow43{
+    width: 8px;
+    height: 8px;
+    animation-name: snowaq;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow44{
+    width: 9px;
+    height: 9px;
+    animation-name: snowar;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow45{
+    width: 10px;
+    height: 10px;
+    animation-name: snowas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow46{
+    width: 6px;
+    height: 6px;
+    animation-name: snowat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow47{
+    width: 7px;
+    height: 7px;
+    animation-name: snowau;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow48{
+    width: 8px;
+    height: 8px;
+    animation-name: snowav;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow49{
+    width: 9px;
+    height: 9px;
+    animation-name: snowaw;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+/* #snow50{
+    width: 10px;
+    height: 10px;
+    animation-name: snowax;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+} */
+
+#snow51{
+    width: 6px;
+    height: 6px;
+    animation-name: snoway;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow52{
+    width: 7px;
+    height: 7px;
+    animation-name: snowaz;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow53{
+    width: 8px;
+    height: 8px;
+    animation-name: snowba;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow54{
+    width: 9px;
+    height: 9px;
+    animation-name: snowbb;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow55{
+    width: 10px;
+    height: 10px;
+    animation-name: snowbc;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow56{
+    width: 6px;
+    height: 6px;
+    animation-name: snowbd;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow57{
+    width: 7px;
+    height: 7px;
+    animation-name: snowbe;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow58{
+    width: 8px;
+    height: 8px;
+    animation-name: snowbf;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#snow59{
+    width: 9px;
+    height: 9px;
+    animation-name: snowbg;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+/* #snow60{
+    width: 10px;
+    height: 10px;
+    animation-name: snowbh;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+} */
+
+
+
+
+
+@keyframes snowa {
+    0%   {background-color:whitesmoke; left:1%; top:1%;}
+    100% {background-color:lightblue; left:50%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowb {
+    0%   {background-color:whitesmoke; left:5%; top:1%;}
+    100% {background-color:lightcyan; left:55%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowc {
+    0%   {background-color:whitesmoke; left:10%; top:1%;}
+    100% {background-color:lightpink; left:60%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowd {
+    0%   {background-color:whitesmoke; left:15%; top:1%;}
+    100% {background-color:lightskyblue; left:65%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowe {
+    0%   {background-color:whitesmoke; left:20%; top:1%;}
+    100% {background-color:lightyellow; left:70%; top:96%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowf {
+    0%   {background-color:whitesmoke; left: 25%; top:1%;}
+    100% {background-color:lightblue; left: 75%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowg {
+    0%   {background-color:whitesmoke; left:30%; top:1%;}
+    100% {background-color:lightcyan; left:80%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowh {
+    0%   {background-color:whitesmoke; left:35%; top:1%;}
+    100% {background-color:lightpink; left:85%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowi {
+    0%   {background-color:whitesmoke; left:40%; top:1%;}
+    100% {background-color:lightskyblue; left:90%; top:96%;}
+  }
+  @keyframes snowj {
+    0%   {background-color:whitesmoke; left:45%; top:1%;}
+    100% {background-color:lightyellow; left:96%; top:96%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowk {
+    0%   {background-color:whitesmoke; left:1%; top:1%;}
+    100% {background-color:lightblue; left:50%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowl {
+    0%   {background-color:whitesmoke; left:5%; top:1%;}
+    100% {background-color:lightcyan; left:55%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowm {
+    0%   {background-color:whitesmoke; left:10%; top:1%;}
+    100% {background-color:lightpink; left:60%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snown {
+    0%   {background-color:whitesmoke; left:15%; top:1%;}
+    100% {background-color:lightskyblue; left:65%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowo {
+    0%   {background-color:whitesmoke; left:20%; top:1%;}
+    100% {background-color:lightyellow; left:70%; top:96%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowp {
+    0%   {background-color:whitesmoke; left: 25%; top:1%;}
+    100% {background-color:lightblue; left: 75%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowq {
+    0%   {background-color:whitesmoke; left:30%; top:1%;}
+    100% {background-color:lightcyan; left:80%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowr {
+    0%   {background-color:whitesmoke; left:35%; top:1%;}
+    100% {background-color:lightpink; left:85%; top:96%;
+    opacity: 0.2;}
+  }
+  @keyframes snows {
+    0%   {background-color:whitesmoke; left:40%; top:1%;}
+    100% {background-color:lightskyblue; left:90%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowt {
+    0%   {background-color:whitesmoke; left:45%; top:1%;}
+    100% {background-color:lightyellow; left:96%; top:96%;
+        opacity: 0.2;}
+  }
+
+
+  @keyframes snowu {
+    0%   {background-color:whitesmoke; left:50%; top:1%;}
+    100% {background-color:lightblue; left:100%; top:90%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowv {
+    0%   {background-color:whitesmoke; left:55%; top:1%;}
+    100% {background-color:lightcyan; left:100%; top:80%;
+        opacity: 0.2;}
+  }
+  @keyframes snoww {
+    0%   {background-color:whitesmoke; left:60%; top:1%;}
+    100% {background-color:lightpink; left:100%; top:70%;
+        opacity: 0.2;}
+  }
+  @keyframes snowx {
+    0%   {background-color:whitesmoke; left:65%; top:1%;}
+    100% {background-color:lightskyblue; left:100%; top:60%;
+        opacity: 0.2;}
+  }
+  @keyframes snowy {
+    0%   {background-color:whitesmoke; left:70%; top:1%;}
+    100% {background-color:lightyellow; left:100%; top:50%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowz {
+    0%   {background-color:whitesmoke; left: 75%; top:1%;}
+    100% {background-color:lightblue; left: 100%; top:40%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowaa {
+    0%   {background-color:whitesmoke; left:80%; top:1%;}
+    100% {background-color:lightcyan; left:100%; top:30%;
+        opacity: 0.2;}
+  }
+  @keyframes snowab {
+    0%   {background-color:whitesmoke; left:85%; top:1%;}
+    100% {background-color:lightpink; left:100%; top:20%;
+        opacity: 0.2;}
+  }
+  @keyframes snowac {
+    0%   {background-color:whitesmoke; left:90%; top:1%;}
+    100% {background-color:lightskyblue; left:99%; top:10%;
+    opacity: 0.2;}
+  }
+  /* @keyframes snowad {
+    0%   {background-color:whitesmoke; left:95%; top:1%;}
+    100% {background-color:lightyellow; left:99%; top:8%;
+        opacity: 0.2;}
+  }  */
+
+
+  @keyframes snowae {
+    0%   {background-color:whitesmoke; left:50%; top:1%;}
+    100% {background-color:lightblue; left:100%; top:90%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowaf {
+    0%   {background-color:whitesmoke; left:555%; top:1%;}
+    100% {background-color:lightcyan; left:100%; top:80%;
+        opacity: 0.2;}
+  }
+  @keyframes snowag {
+    0%   {background-color:whitesmoke; left:60%; top:1%;}
+    100% {background-color:lightpink; left:100%; top:70%;
+        opacity: 0.2;}
+  }
+  @keyframes snowah {
+    0%   {background-color:whitesmoke; left:65%; top:1%;}
+    100% {background-color:lightskyblue; left:100%; top:60%;
+        opacity: 0.2;}
+  }
+  @keyframes snowai {
+    0%   {background-color:whitesmoke; left:70%; top:1%;}
+    100% {background-color:lightyellow; left:100%; top:50%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowaj {
+    0%   {background-color:whitesmoke; left: 75%; top:1%;}
+    100% {background-color:lightblue; left: 100%; top:40%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowak {
+    0%   {background-color:whitesmoke; left:80%; top:1%;}
+    100% {background-color:lightcyan; left:100%; top:30%;
+        opacity: 0.2;}
+  }
+  @keyframes snowal {
+    0%   {background-color:whitesmoke; left:85%; top:1%;}
+    100% {background-color:lightpink; left:100%; top:20%;
+        opacity: 0.2;}
+  }
+  @keyframes snowam {
+    0%   {background-color:whitesmoke; left:90%; top:1%;}
+    100% {background-color:lightskyblue; left:99%; top:10%;
+        opacity: 0.2;}
+  }
+  /* @keyframes snowan {
+    0%   {background-color:whitesmoke; left:96%; top:1%;}
+    100% {background-color:lightyellow; left:99%; top:8%;
+        opacity: 0.2;}
+  } */
+  
+
+
+  @keyframes snowao {
+    0%   {background-color:whitesmoke; left:0%; top:5%;}
+    100% {background-color:lightblue; left:45%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowap {
+    0%   {background-color:whitesmoke; left:0%; top:10%;}
+    100% {background-color:lightcyan; left:40%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowaq {
+    0%   {background-color:whitesmoke; left:0%; top:15%;}
+    100% {background-color:lightpink; left:35%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowar {
+    0%   {background-color:whitesmoke; left:0%; top:20%;}
+    100% {background-color:lightskyblue; left:30%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowas {
+    0%   {background-color:whitesmoke; left:0%; top:25%;}
+    100% {background-color:lightyellow; left:25%; top:96%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowat {
+    0%   {background-color:whitesmoke; left: 0%; top:30%;}
+    100% {background-color:lightblue; left: 20%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowau {
+    0%   {background-color:whitesmoke; left:0%; top:35%;}
+    100% {background-color:lightcyan; left:15%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowav {
+    0%   {background-color:whitesmoke; left:0%; top:40%;}
+    100% {background-color:lightpink; left:10%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowaw {
+    0%   {background-color:whitesmoke; left:0%; top:45%;}
+    100% {background-color:lightskyblue; left:5%; top:96%;
+    opacity: 0.2;}
+  }
+  /* @keyframes snowax {
+    0%   {background-color:whitesmoke; left:0%; top:40%;}
+    100% {background-color:lightyellow; left:3%; top:96%;
+        opacity: 0.2;}
+  }  */
+
+
+  @keyframes snoway {
+    0%   {background-color:whitesmoke; left:0%; top:5%;}
+    100% {background-color:lightblue; left: 45%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowaz {
+    0%   {background-color:whitesmoke; left:0%; top:10%;}
+    100% {background-color:lightcyan; left:40%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowba {
+    0%   {background-color:whitesmoke; left:0%; top:15%;}
+    100% {background-color:lightpink; left:35%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowbb {
+    0%   {background-color:whitesmoke; left:0%; top:20%;}
+    100% {background-color:lightskyblue; left:30%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowbc {
+    0%   {background-color:whitesmoke; left:0%; top:25%;}
+    100% {background-color:lightyellow; left:25%; top:96%;
+        opacity: 0.2;}
+  }
+
+  @keyframes snowbd {
+    0%   {background-color:whitesmoke; left: 0%; top:30%;}
+    100% {background-color:lightblue; left: 20%; top:96%;
+        opacity: 0.2;}
+  }  
+  @keyframes snowbe {
+    0%   {background-color:whitesmoke; left:0%; top:35%;}
+    100% {background-color:lightcyan; left:15%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowbf {
+    0%   {background-color:whitesmoke; left:0%; top:40%;}
+    100% {background-color:lightpink; left:10%; top:96%;
+        opacity: 0.2;}
+  }
+  @keyframes snowbg {
+    0%   {background-color:whitesmoke; left:0%; top:45%;}
+    100% {background-color:lightskyblue; left:5%; top:96%;
+        opacity: 0.2;}
+  }
+  /* @keyframes snowbh {
+    0%   {background-color:whitesmoke; left:0%; top:50%;}
+    100% {background-color:lightyellow; left:3%; top:96%;
+        opacity: 0.2;}
+  } */
